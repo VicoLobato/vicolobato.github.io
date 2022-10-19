@@ -1,0 +1,304 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tablas</title>
+<link href="style_page.css" rel="stylesheet" type="text/css">
+<link href="../Css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Tablas en HTML</h1>
+</header>
+<nav>
+	 <ul id="navegación">
+	    <li><a href="formatos_texto.html" target="new">Formatos</a></li>
+		  <li><a href="Listas.html" target="new">Listas</a></li>
+		  <li><a href="tablas.html" target="new">Tablas</a></li>
+		  <li><a href="Enlaces.html" target="new">Enlaces</a></li>
+		  <li><a href="imagenes.html" target="new">Imágenes</a></li>
+		 <li><a href="audios.html" target="new">Audios</a></li>
+		  <li><a href="videos.html" target="new" >Videos</a></li>
+		 <li><a href="formulario2.html" target="new"> Formulario</a></li>
+      </ul>
+	</nav>
+<main>
+  <section>
+    <h2>Tabla Simple</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus dolore illo maxime. Adipisci incidunt voluptatum perferendis perspiciatis facilis commodi natus nulla, dignissimos animi, possimus sed aliquid neque beatae at nesciunt ut totam odit voluptatibus sunt laudantium officia dicta. Voluptatibus officia corrupti quod saepe reprehenderit modi distinctio ut quibusdam. Minus sequi, delectus esse iste, blanditiis unde eaque incidunt deserunt ratione molestias natus suscipit est quisquam amet tempore? Totam consequuntur suscipit nemo explicabo hic, dicta expedita nisi voluptas quae ipsam quos et sint molestias, laudantium nesciunt consequatur ea odio cumque dolor nostrum labore itaque asperiores! Fugit non, autem incidunt recusandae reiciendis in.</p>
+	  <table border="1" id="tablaoriginal">
+		  <thead>
+		  <tr>
+			<th>NOMBRE(S)</th>
+			<th>APELLIDOS</th> 
+			  <th>TELÉFONO</th>
+		  </tr>
+		  </thead>
+		  <tbody>
+		  <tr>
+			<td>María</td>  
+			 <td>Suárez</td>
+			  <td>2224567890</td> 
+		  </tr>
+		  <tr>
+			  <td>Carlos</td>
+			  <td>Ponce</td>
+			  <td>2225458265</td>
+		  </tr>
+			  <!--Shorcut (tr>td*3)*3-->
+			  <tr>
+			  	<td>Karla</td>
+			  	<td>Díaz Mora</td>
+			  	<td>2226457895</td>
+			  </tr>
+			  <tr>
+			  	<td>Rupaula</td>
+			  	<td>Ramírez García</td>
+			  	<td>2255454585</td>
+			  </tr>
+			  <tr>
+			  	<td>José</td>
+			  	<td>Carmona Carmona</td>
+			  	<td>2225545844</td>
+			  </tr>
+		  </tbody>
+		  <tfoot></tfoot>
+	  </table>
+  </section>
+  <section>
+    <h2>Tabla Modificada a través de CSS</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus dolore illo maxime. Adipisci incidunt voluptatum perferendis perspiciatis facilis commodi natus nulla, dignissimos animi, possimus sed aliquid neque beatae at nesciunt ut totam odit voluptatibus sunt laudantium officia dicta. Voluptatibus officia corrupti quod saepe reprehenderit modi distinctio ut quibusdam. Minus sequi, delectus esse iste, blanditiis unde eaque incidunt deserunt ratione molestias natus suscipit est quisquam amet tempore? Totam consequuntur suscipit nemo explicabo hic, dicta expedita nisi voluptas quae ipsam quos et sint molestias, laudantium nesciunt consequatur ea odio cumque dolor nostrum labore itaque asperiores! Fugit non, autem incidunt recusandae reiciendis in.</p>
+    <table border="1" id="tabla_1">
+      <thead>
+        <tr>
+          <th>NOMBRE(S)</th>
+          <th>APELLIDOS</th>
+          <th>TELÉFONO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>María</td>
+          <td>Suárez</td>
+          <td>2224567890</td>
+        </tr>
+        <tr>
+          <td>Carlos</td>
+          <td>Ponce</td>
+          <td>2225458265</td>
+        </tr>
+        <!--Shorcut (tr>td*3)*3-->
+        <tr>
+          <td>Karla</td>
+          <td>Díaz Mora</td>
+          <td>2226457895</td>
+        </tr>
+        <tr>
+          <td>Rupaula</td>
+          <td>Ramírez García</td>
+          <td>2255454585</td>
+        </tr>
+        <tr>
+          <td>José</td>
+          <td>Carmona Carmona</td>
+          <td>2225545844</td>
+        </tr>
+      </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+  </section>
+  <section>
+    <h2>Tabla modificando hover</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus dolore illo maxime. Adipisci incidunt voluptatum perferendis perspiciatis facilis commodi natus nulla, dignissimos animi, possimus sed aliquid neque beatae at nesciunt ut totam odit voluptatibus sunt laudantium officia dicta. Voluptatibus officia corrupti quod saepe reprehenderit modi distinctio ut quibusdam. Minus sequi, delectus esse iste, blanditiis unde eaque incidunt deserunt ratione molestias natus suscipit est quisquam amet tempore? Totam consequuntur suscipit nemo explicabo hic, dicta expedita nisi voluptas quae ipsam quos et sint molestias, laudantium nesciunt consequatur ea odio cumque dolor nostrum labore itaque asperiores! Fugit non, autem incidunt recusandae reiciendis in.</p>
+    <table border="1" class="tabla_2">
+      <thead>
+        <tr>
+          <th>NOMBRE(S)</th>
+          <th>APELLIDOS</th>
+          <th>TELÉFONO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>María</td>
+          <td>Suárez</td>
+          <td>2224567890</td>
+        </tr>
+        <tr>
+          <td>Carlos</td>
+          <td>Ponce</td>
+          <td>2225458265</td>
+        </tr>
+        <!--Shorcut (tr>td*3)*3-->
+        <tr>
+          <td>Karla</td>
+          <td>Díaz Mora</td>
+          <td>2226457895</td>
+        </tr>
+        <tr>
+          <td>Rupaula</td>
+          <td>Ramírez García</td>
+          <td>2255454585</td>
+        </tr>
+        <tr>
+          <td>José</td>
+          <td>Carmona Carmona</td>
+          <td>2225545844</td>
+        </tr>
+      </tbody>
+      <tfoot>
+      </tfoot>
+    </table>
+  </section>
+  <section>
+    <h2>Tabla Cebra (modificada por filas)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus dolore illo maxime. Adipisci incidunt voluptatum perferendis perspiciatis facilis commodi natus nulla, dignissimos animi, possimus sed aliquid neque beatae at nesciunt ut totam odit voluptatibus sunt laudantium officia dicta. Voluptatibus officia corrupti quod saepe reprehenderit modi distinctio ut quibusdam. Minus sequi, delectus esse iste, blanditiis unde eaque incidunt deserunt ratione molestias natus suscipit est quisquam amet tempore? Totam consequuntur suscipit nemo explicabo hic, dicta expedita nisi voluptas quae ipsam quos et sint molestias, laudantium nesciunt consequatur ea odio cumque dolor nostrum labore itaque asperiores! Fugit non, autem incidunt recusandae reiciendis in.</p>
+    <table width="80%" border="1" cellspacing="2" id="tabla4">
+      <thead>
+		  <tr>
+		  <th>Nombre</th>
+		  <th>Edad</th>
+		  <th>Email</th>
+		  <th>Teléfono</th>
+		  </tr>
+		</thead>
+		<tbody>
+        <tr>
+          <td>&nbsp;María García Gómez</td>
+          <td class="celdacentrada">&nbsp;15 años</td>
+          <td>&nbsp;maria@gmail.com</td>
+          <td>&nbsp;2222444565</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Fernando Suárez Coroma</td>
+          <td class="celdacentrada">&nbsp;17 años</td>
+          <td>fer@gmail.com&nbsp;</td>
+          <td>2255658565&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Gerargo Fernández Gómez</td>
+          <td class="celdacentrada">46 años&nbsp;</td>
+          <td>gerg@gmail.com&nbsp;</td>
+          <td>2233698899&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;María Luna Luna</td>
+          <td class="celdacentrada">23 años&nbsp;</td>
+          <td>lunmar@gmail.com&nbsp;</td>
+          <td>2255998645&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Joe Calderone Calderone</td>
+          <td class="celdacentrada">33 años&nbsp;</td>
+          <td>joecald@gmail.com&nbsp;</td>
+          <td>2264557425&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;José Carmona Carmona</td>
+          <td class="celdacentrada">33 años&nbsp;</td>
+          <td>josecarm@gmail.com&nbsp;</td>
+          <td>2254545545&nbsp;</td>
+        </tr>
+			<tr>
+			<td>&nbsp;José Carmona Carmona</td>
+          <td class="celdacentrada">33 años&nbsp;</td>
+          <td>josecarm@gmail.com&nbsp;</td>
+          <td>2254545545&nbsp;</td>
+			</tr>
+			<tr>
+			<td>&nbsp;José Carmona Carmona</td>
+          <td class="celdacentrada">33 años&nbsp;</td>
+          <td>josecarm@gmail.com&nbsp;</td>
+          <td>2254545545&nbsp;</td>
+			</tr>
+			<tr>
+			<td>&nbsp;José Carmona Carmona</td>
+          <td class="celdacentrada">33 años&nbsp;</td>
+          <td>josecarm@gmail.com&nbsp;</td>
+          <td>2254545545&nbsp;</td>
+			</tr>
+			<tr>
+			<td>&nbsp;José Carmona Carmona</td>
+          <td class="celdacentrada">33 años&nbsp;</td>
+          <td>josecarm@gmail.com&nbsp;</td>
+          <td>2254545545&nbsp;</td>
+			</tr>
+      </tbody>
+    </table>
+    <p>&nbsp;</p>
+  </section>
+  <section id="overflow">
+    <h2>Tabla Receptiva</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus dolore illo maxime. Adipisci incidunt voluptatum perferendis perspiciatis facilis commodi natus nulla, dignissimos animi, possimus sed aliquid neque beatae at nesciunt ut totam odit voluptatibus sunt laudantium officia dicta. Voluptatibus officia corrupti quod saepe reprehenderit modi distinctio ut quibusdam. Minus sequi, delectus esse iste, blanditiis unde eaque incidunt deserunt ratione molestias natus suscipit est quisquam amet tempore? Totam consequuntur suscipit nemo explicabo hic, dicta expedita nisi voluptas quae ipsam quos et sint molestias, laudantium nesciunt consequatur ea odio cumque dolor nostrum labore itaque asperiores! Fugit non, autem incidunt recusandae reiciendis in.</p>
+    <div id="divoverflow">
+      <table width="80%" border="1" cellspacing="2" id="tablafinal">
+        <tbody>
+          <tr>
+            <th scope="col">&nbsp;Nombre</th>
+            <th scope="col">Apellido&nbsp;</th>
+            <th scope="col">&nbsp;Ronda 1</th>
+            <th scope="col">&nbsp;Ronda 2</th>
+            <th scope="col">Ronda 3&nbsp;</th>
+            <th scope="col">&nbsp;Ronda 4</th>
+            <th scope="col">Ronda 5&nbsp;</th>
+            <th scope="col">&nbsp;Ronda 6</th>
+            <th scope="col">Ronda 7&nbsp;</th>
+            <th scope="col">Ronda 8&nbsp;</th>
+            <th scope="col">&nbsp;Ronda 9</th>
+            <th scope="col">Ronda 10&nbsp;</th>
+          </tr>
+          <tr>
+            <td>&nbsp;María</td>
+            <td>Hill&nbsp;</td>
+            <td>&nbsp;10</td>
+            <td>5&nbsp;</td>
+            <td>7&nbsp;</td>
+            <td>7&nbsp;</td>
+            <td>3&nbsp;</td>
+            <td>5&nbsp;</td>
+            <td>8&nbsp;</td>
+            <td>2&nbsp;</td>
+            <td>1&nbsp;</td>
+            <td>3&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;Juan</td>
+            <td>Díaz&nbsp;</td>
+            <td>&nbsp;5</td>
+            <td>8&nbsp;</td>
+            <td>&nbsp;4</td>
+            <td>&nbsp;2</td>
+            <td>&nbsp;3</td>
+            <td>&nbsp;3</td>
+            <td>&nbsp;9</td>
+            <td>&nbsp;4</td>
+            <td>&nbsp;8</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>&nbsp;Amy</td>
+            <td>Lee&nbsp;</td>
+            <td>&nbsp;2</td>
+            <td>&nbsp;9</td>
+            <td>&nbsp;9</td>
+            <td>&nbsp;8</td>
+            <td>&nbsp;5</td>
+            <td>&nbsp;1</td>
+            <td>4</td>
+            <td>&nbsp;3</td>
+            <td>&nbsp;9</td>
+            <td>&nbsp;9</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+<p>&nbsp;</p>
+  </section>
+</main>
+<footer>
+  <h6>Elaborado por Víctor Manuel Concha Lobato</h6>
+</footer>
+</body>
+</html>

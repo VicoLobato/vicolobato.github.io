@@ -1,0 +1,562 @@
+@charset "utf-8";
+header{
+	background-color: #EC6DB4;
+	width: 1200px;
+	height: 100px;
+}header, body nav, body main, footer {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+}
+body main section {
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    padding: 20px;
+    margin-right: auto;
+    background-color: #EEF7F9;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+main section h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+body footer {
+    background-color: #841553;
+}
+body header h1 {
+    color: #FCFCFC;
+    text-align: center;
+}
+body footer h6 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    height: 50px;
+    padding-top: 10px;
+}
+* {
+    padding: inherit;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #000000;
+}
+#imggif {
+	width: 50%;
+	height: 50%;
+}
+.imagenflotante {
+	width: 25%;
+	border-radius: 50 px;
+	padding: auto;
+	margin: auto;
+	height: 25%;
+}
+#bg_img_1 {
+}
+
+#img_floatderecho {
+	float: right;
+}
+#img_floatizq {
+	border-radius: 50 px;
+	float: left;
+}
+
+
+
+
+#navegación li{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    height: 40px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 20px;
+    border: solid blue;
+}
+#navegación li a:link{
+    color: #28378F;
+    text-align: center;
+    font-size: 18 px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-decoration: none
+}
+
+#navegación li a:hover{
+	 color: #ED63AC;
+    padding: 20;
+    font-size: 19px;
+}
+
+
+
+
+
+body main {
+    padding: 30px;
+    background-color: #BAD7E4;
+}
+body nav {
+    background-color: #F9A2F1;
+    height: auto;
+
+}
+section ul li {
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: #F9A2F1;
+    color: #FFFFFF;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    /* [disabled]align-content: center; */
+}
+#tabla_1 {
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+#tabla_1 thead tr th {
+    background-color: pink;
+    height: 50px;
+}
+#tabla_1 tbody tr td {
+    height: 51px;
+    background-color: #FFEDEE;
+    font-weight: 900;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+}
+#tabla_1 th, #tabla_1 td {
+    border-width: 5px;
+    border-color: #870753;
+}
+.tabla_2 {
+    background-color: #FFDBB8;
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.tabla_2 tbody tr:hover {
+    background-color: #FFF680;
+}
+.tabla_2 thead th {
+    background-color: #FFAB6B;
+    font-weight: 900;
+}
+
+
+.tabla_2 tbody tr td {
+    padding: 10px;
+    font-weight: 900;
+}
+#tabla4 thead tr th {
+}
+#tabla4 {
+}
+#tabla4 tbody tr td {
+    padding: 5px;
+    height: auto;
+}
+.celdacentrada {
+    text-align: center;
+
+
+}
+
+
+
+
+#tablaoriginal {
+    margin-left: auto;
+    margin-right: auto;
+}
+#tablaoriginal tbody tr td {
+    /* [disabled]width: 0px; */
+    padding: 10px;
+    /* [disabled]height: 0px; */
+}
+#tabla4 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 720px;
+}
+#tabla4 td {
+    width: 150px;
+    /* [disabled]height: 0px; */
+}
+
+#tabla4 tr:nth-child(even) {
+    background-color: #842D2E;
+    color: #FFFFFF;
+}
+#tabla4 tr:nth-child(odd) {
+    background-color: #FFF0E4;
+}
+#tabla4 th {
+    background-color: #5F001D;
+    color: #FFFFFF;
+}
+.celda {
+}
+#tablafinal {
+}
+#tablafinal {
+    width: 900px;
+    border-collapse: collapse;
+    text-align: center;
+}
+#tablafinal th, #tabla4 td {
+    height: 30px;
+}
+
+#tablafinal tbody tr td {
+    margin: 5px;
+    padding: 5px;
+}
+#tablafinal tbody tr th {
+    padding: 7px;
+    margin: 5px;
+    background-color: #4C0010;
+    color: #FFFFFF;
+}
+#overflow {
+
+}
+#divoverflow {
+    overflow-x: auto;
+}
+#tablafinal tr:nth-child(even) {
+    background-color: #FFEEE2;
+}
+#tablafinal tr:nth-child(odd) {
+    background-color: #782728;
+    color: #FFFFFF;
+}
+.imagenflotante {
+}
+#img_floatderecho {
+}
+#img_floatizq {
+}
+#bg_img_1 {
+	background-image: url(
+../Downloads/R%20(78).jpg);
+    background-repeat: repeat;
+    background-image: url( "../Medios/Imagenes/4562bfd2b3b948cb8c423274232169cc.jpg");
+    background-size: 107% auto;
+}
+.img_filtros {
+	width: 33%;
+	height: 33%;
+}
+#grey {
+	filter: grayscale(100%);
+}
+#filt_invert {
+	filter: invert(100%);
+}
+#img_blur {
+	filter: blur(3px);
+}
+#brillo {
+	filter: brightness(120%);
+}
+#contraste {
+	filter: contrast(50%);
+}
+
+
+
+
+
+
+.img_filtros {
+    margin-left: -1px;
+}
+#filt_invert {
+}
+#img_blur {
+}
+#brillo {
+}
+#contraste {
+}
+#opacidad {
+	filter: opacity(50%);
+}
+#saturacion {
+	filter: saturation(300%);
+}
+#sepia {
+	filter: sepia(100%);
+}
+
+#sepia {
+}
+#drop   {
+	filter: dropshadow(100%);
+}
+#drop {
+}
+#bgtext {
+    color: #FFFFFF;
+}
+#bgtext {
+}
+#bgtext {
+}
+#bgtext {
+}
+#drop_shadow {
+    filter: drop-shadow(10px 10px 10px grey);
+}
+label {
+    font-weight: bold;
+    color: #113F57;
+    font-size: 16px;
+    height: 0px;
+}
+input[type=text] {
+    font-style: italic;
+    color: #0D9AB7;
+}
+input#nombre {
+    height: 10px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+}
+#form2 {
+}
+#form2 {
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    text-align: center;
+}
+
+
+#form1 #apellido {
+    height: 10px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+}
+#form1 #submit {
+    height: auto;
+}
+.seccióntabla #form1 {
+    height: 3%;
+}
+
+#form2 {
+}
+tr td label {
+
+}
+.seccióntabla .centradodetexto {
+}
+#secciontabla .centradodetexto {
+}
+#secciontabla #form2 {
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    text-align: center;
+    width: 55%;
+    margin-left: 160px;
+    background-color: #C9E8FF;
+}
+#secciontabla #form2 #form2.0 {
+    margin-right: -1px;
+    height: 0%;
+    width: 0%;
+    text-align: left;
+}
+
+#form2 p {
+    background-color: #C9E8FF;
+    width: 0%;
+    height: 0%;
+    text-align: center;
+}
+#secciontabla #form2 #form2.0 {
+    height: 28%;
+    margin-right: -4px;
+    padding-right: 37px;
+}
+
+#form2 p {
+    width: 102%;
+}
+#secciontabla #form2 .tablacentrada.residencia {
+    margin-right: -15px;
+    padding-right: 11px;
+    height: 0%;
+    width: 80%;
+    margin-left: 34px;
+}
+#secciontabla #form2 #form2.0 {
+    padding-right: 0px;
+    height: 0%;
+    width: 0%;
+}
+#form2 #form2.0 #casaamigo {
+}
+
+#secciontabla #form2 #form2.0 {
+}
+#form2 #form2.0 #casaamigo {
+}
+
+
+
+#form2.0 label #Residencia_temporal_1 {
+}
+#secciontabla #form2 #form2.0 {
+    padding-right: 0px;
+}
+#secciontabla #form2 #form2.0 {
+    margin-right: -8px;
+    width: 25%;
+    padding-right: 3px;
+    padding-top: 14px;
+}
+#secciontabla #form2 #form2.0 {
+}
+#form2 #form2.0 #casaamigo {
+}
+
+
+
+
+
+
+p label #Residencia_temporal_1 {
+}
+
+
+
+.seccióntabla #form1 label {
+    height: 0px;
+}
+.seccióntabla #form1 #submit {
+}
+.seccióntabla #form1 #submit {
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+}
+
+
+
+
+
+
+.seccióntabla {
+}
+#secciontabla {
+}
+#form3 label {
+}
+#form3 #email {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+#form3 input {
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+#form3 {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+#form3 input {
+}
+#form3 #enviar {
+    margin-top: 16px;
+}
+
+
+
+
+#form3 #textarea {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 18px;
+    margin-bottom: -5px;
+}
+#enviar {
+}
+#form2.0 {
+}
+.residencia {
+}
+.casaamigo {
+}
+#casaamigo {
+}
+section p img {
+}
+section p img {
+    padding-left: 52px;
+}
+main section img {
+    margin-left: 240px;
+    text-align: center;
+}
+#marcador1 {
+    text-align: center;
+
+}
+
+.title {
+}
+main section img {
+    margin-left: 13px;
+}
